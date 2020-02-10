@@ -1,0 +1,83 @@
+body {
+  background: #ccc;
+}
+
+#Header a:hover {
+  color: #fff;
+}
+
+#bg-img {
+  background: url("../img/mountain.jfif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+#aboutme {
+  margin-top: -200px;
+}
+
+#aboutme span {
+  padding: 10px 20px 10px 20px;
+}
+
+#aboutme hr {
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+#experience span {
+  padding: 10px 20px 10px 20px;
+}
+
+#experience hr {
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+#experience .card {
+  border-top: 3px solid #d63031;
+  border-bottom: 3px solid #d63031;
+}
+
+#skills span {
+  padding: 10px 20px 10px 20px;
+}
+
+#skills hr {
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+#skils .card {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#contact span {
+  padding: 10px 20px 10px 20px;
+}
+
+#contact hr {
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
