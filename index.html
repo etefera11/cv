@@ -1,91 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ezana Tefera Personal Site</title>
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web\css\all.css" />
   </head>
-  <body>
-    <table>
-      <td><img src="images/ezana.png" alt="ezana's profile pic" /></td>
-      <td>
-        <h1>Ezana Tefera</h1>
-        <p>
-          <em></em>Computer Information Systems student from Buffalo, NY</em>
-        </p>
-        <hr />
-        <h3>About Me:</h3>
-        <ul>
-          <li>
-            <p>
-              I'm currently a junior pursuing a B.S. in Computer Information Systems.
-              Interests are front end software development or program
-              management.
+  <body data-spy="scroll" data-target=".navbar">
+    <!--- Start Home Section-->
+
+    <!-- Navigation -->
+    <div id="home">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#aboutme" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <a class="navbar-brand" href="#"><img src="" alt=""/></a>
+      </nav>
+    </div>
+
+    <!--ShowCase-->
+    <div id="bg-img"></div>
+
+    <!--- Start AboutMe Section-->
+    <div id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="AboutData">
+              <div class="card bg-white">
+                <div class="card-title my-5">
+                  <div class="media">
+                    <img
+                      src="img/ezana.png"
+                      width="250"
+                      height="250"
+                      class="img-fluid rounded-top mx-5 d-none d-lg-block"
+                    />
+                    <div class="media-body">
+                      <h3 class="display-4 ml-5">I'm Ezana Tefera</h3>
+                      <p class="text-muted ml-5">
+                        Student at State University of New York College at
+                        Buffalo
+                      </p>
+                      <div class="containter">
+                        <table class="table table-responsive">
+                          <tr>
+                            <td class="text-muted">Major</td>
+                            <td>:</td>
+                            <td>Computer Information Systems</td>
+                          </tr>
+                          <tr>
+                            <td class="text-muted">GPA</td>
+                            <td>:</td>
+                            <td>4.00/4.00</td>
+                          </tr>
+                          <tr>
+                            <td class="text-muted">Expected Graduation</td>
+                            <td>:</td>
+                            <td>May 2021</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-info">
+                  <a href="https://github.com/etefera11"
+                    ><i class="fab fa-github fa-2x mx-5 text-white"></i
+                  ></a>
+                  <a href="https://www.linkedin.com/in/ezanatefera/"
+                    ><i class="fab fa-linkedin fa-2x mx-5 text-white"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <span class="bg-info text-white">About Me</span>
+            <hr class="bg-info" />
+            <p class="lead text-justify">
+              Highly motivated undergraduate student with a variety of technical
+              skills. Experience working in stakeholder management, health
+              sciences research, computer hardware and databases. Ability to
+              communicate with a variety of people and situations.
             </p>
-          </li>
-        </ul>
-      </td>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <hr />
-    <h3>Education:</h3>
-    <p>
-      State University of New York (SUNY) College at Buffalo
-    </p>
-    <em></em>Bachelor of Science in Computer Information Systems</em>
-    <p><strong>Dean's Honor List, GPA: 4.0/4.0</strong></p>
-    <hr />
-    <h3>Work Experience:</h3>
-    <table>
-      <thead>
-        <th>Dates</th>
-        <th>Work</th>
-      </thead>
-      <tbody>
-        <td>Winter 2019-2020</td>
-        <td>
-          Stakeholder Management Intern at The African Leadership University
-        </td>
-      </tbody>
-      <tbody>
-        <td>December 2018 – June 2019</td>
-        <td>
-          Warehouse Technician at Albo Computer Corporation
-        </td>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Technical Skills</h3>
-    <table>
-      <tr>
+    <!--- Start Experience Section-->
+    <div id="experience">
+      <div class="container mt-5">
+        <span class="bg-danger text-white">Experience</span>
+        <hr class="bg-danger" />
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card bg-white">
+              <img
+                src="img/alu_logo_original.png"
+                width="200"
+                height="80"
+                class="img-fluid m-auto py-3"
+              />
+              <h3 class="text-center text-danger">
+                Stakeholder Management Intern
+              </h3>
+              <p class="lead text-justify p-3">
+                - Devised a visual handbook outlining the agenda of the Business
+                of Conservation Conference (BCC), an annual event held in
+                Kigali, Rwanda that hosts 500 prominent African leaders
+              </p>
+              <p class="lead text-justify p-3">
+                - Developed a proposal to create a Financial Aid Office to
+                process stipends, scholarships and grants. Presented the
+                proposal to the University CEO, and it was approved to be
+                implemented starting in Fall 2020
+              </p>
+              <p class="lead text-justify p-3">
+                - Formed a communication plan including logistics for residency
+                guests at the university
+              </p>
+              <p class="lead text-justify p-3">
+                - Completed the 2019 Mandela Scholarship report sent out to
+                sponsors
+              </p>
+              <p class="lead text-justify p-3">
+                - Created templates for Volunteer Briefing and Engage Deck
+                presentations
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card bg-white">
+              <img
+                src="img/albo.png"
+                width="200"
+                height="80"
+                class="img-fluid m-auto py-3"
+              />
+              <h3 class="text-center text-danger">Warehouse Technician</h3>
+              <p class="lead text-justify p-3">
+                - Managed shipping and receiving for Dell hardware parts
+              </p>
+              <p class="lead text-justify p-3">
+                - Assembled and Disassembled Dell Enterprise Servers containing
+                HDDs, GPUs, and CPUs
+              </p>
+              <p class="lead text-justify p-3">
+                - Utilized eBay File Exchange Spread Sheet to effectively list
+                and manage inventory; increased sales revenue by 30% the next
+                month after being implemented
+              </p>
+              <p class="lead text-justify p-3">
+                - Created an inventory database using Microsoft Access
+              </p>
+              <p class="lead text-justify p-3">
+                - Conducted competitor research to identify fresh sales tactics
+                to cut operating expenses
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <td>C++</td>
-        <td>⭐⭐⭐</td>
-        <td>Python</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>⭐⭐</td>
-        <td>React</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
+    <!--- Start Skills Section-->
+    <div id="skills" class="mt-5">
+      <div class="container">
+        <span class="bg-success text-white">Skills</span>
+        <hr class="bg-success" />
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white">
+              <h3 class="ml-3 my-3">C++</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:75%">75%</div>
+              </div>
+              <h3 class="ml-3 my-3">Python</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:50%">50%</div>
+              </div>
+              <h3 class="ml-3 my-3">JavaScript</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:50%">50%</div>
+              </div>
+              <h3 class="ml-3 my-3">HTML5</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:50%">50%</div>
+              </div>
+              <h3 class="ml-3 my-3">CSS3</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:50%">50%</div>
+              </div>
+              <h3 class="ml-3 my-3">Bootstrap4</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar bg-success" style="width:25%">25%</div>
+              </div>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      </tr>
-      <tr>
+    <!--- Start Contact Section-->
+    <div id="contact">
+      <div class="container mt-5">
+        <span class="bg-warning text-white">Contact Me</span>
+        <hr class="bg-warning" />
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white">
+              <div class="card-header">
+                <h4 class="my-4">
+                  Please fill out your information and leave a brief message
+                  below.
+                </h4>
+                <form
+                  class="contact-form"
+                  action="contactform.php"
+                  method="post"
+                >
+                  <div class="form-group mt-3">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      class="form-control mx-2"
+                    />
+                  </div>
+                  <div class="form-group mt-3">
+                    <input
+                      type="email"
+                      name="mail"
+                      placeholder="Email"
+                      class="form-control mx-2"
+                    />
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea
+                      name="message"
+                      class="form-control mx-2"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                  <div class="form-group text-center mt-3">
+                    <button class="btn btn-warning text-white">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      </tr>
-    </table>
-    <hr />
-    <table>
-      <tr>
-        <td><a href="contact.html">Contact Me</a></td>
-        <td><a href="login.html">Login</a></td>
-      </tr>
-    </table>
+    <!--- Start Footer Section-->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col">
+          <div class="container">
+            <p class="text-white text-center pt-3">
+              Website Designed By: Ezana Tefera in 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Script Source Files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <!--- End of Script Source Files -->
   </body>
 </html>
