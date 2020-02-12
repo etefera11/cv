@@ -1,7 +1,7 @@
 <?php
 
     $name = $_POST['name'];
-    $mailFrom = $_POST['mail'];
+    $mailFrom = $_POST['email'];
     $message = $_POST['message'];
 
     $mailTo = "teferae01@mail.buffalostate.edu";
@@ -10,5 +10,6 @@
     
     mail($mailTo, $txt, $headers);
     header("Location: index.html?mailsend");
+
 
 ?>
