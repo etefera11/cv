@@ -4,7 +4,7 @@
     $to = $_POST['email'];
     $message = $_POST['message'];
 
-    $to = "teferae01@mail.buffalostate.edu";
+   // $to = "teferae01@mail.buffalostate.edu";
     $headers = "From: ".$mailFrom;
     $txt = "You have received an e-mail from" ;//.$name.",\n\n".$message;
     
